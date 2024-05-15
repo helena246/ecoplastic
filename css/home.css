@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(232, 232, 238, 0.801);
+}
+
+.nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    background-color:  #105422;
+    width: 100%;
+    padding-right: 5rem;;
+    padding-left: 11rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 3px 10px #167830 ;
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav li a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 50px;  
+    font-size: 20px;
+    margin-left: 70px;
+}
+.nav li a:hover{
+     background-color: rgba(112, 108, 116, 0.603);
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border-radius: 50px;
+}
+
+.logo{
+    position: absolute;
+    top: 2.6%;
+    left: 2%;
+    padding-left: 3rem;
+}
+
+.slide{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slide-content input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+
+.navmanual, .navauto{
+    position: absolute;
+    width: 100%;
+    margin-top: 27%;
+    display: flex ;
+    justify-content: center;
+}
+
+
+.navmanual .btnmanual, .navauto div{
+    border: 1px solid #105422;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navmanual .btnmanual:not(:last-child),.navauto div:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+
+.navmanual .btnmanual:hover{
+    background-color: #105422;
+}
+
+#radio1:checked ~ .navauto autobtn1 {
+    background-color: #105422;
+}
+
+#radio2:checked ~ .navauto autobtn2{
+    background-color: #105422;
+}
+#radio3:checked ~ .navauto autobtn3{
+    background-color: #105422;
+}
+
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+.titulo h1{
+    padding: 5rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.vcsabia{
+    background-color: #1f7a38;
+    border-radius: 2rem;
+    color: #fff;
+    text-align: center;
+    height:23rem;
+    width: 90rem;
+    padding: 1rem;
+    background-position: left;
+ 
+}
+
+.vcsabia img{
+    width: 5rem;
+}
+
+.frase{
+    cursor: pointer;
+}
+
+.aparecer {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+.conteudo{
+    padding: 50px;
+    background-color: #105422;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.titulo{
+    color: #fff;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    padding-top: 1rem;
+  }
+  th, td {
+    border: 1px solid #1f7a38;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #1f7a38;
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  .fixo {
+    background-color: #fff;
+    color: black;
+  }
+  .tabela {
+    background-color:#fff;
+  }
+
+  strong{
+    color: #4fce6f;
+  }
+  
+.comparar h3{
+    color: #105422;
+}
+
+.termo{
+    display: flex;
+    background-color: #105422;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.img{
+   text-align: center;
+
+}
+
+.img img{
+    border-radius: 1rem;
+    width: 25rem;
+}

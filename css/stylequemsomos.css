@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(232, 232, 238, 0.801);
+    align-items: center;
+
+}
+
+.nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    background-color:  #105422;
+    width: 100%;
+    padding-right:5rem;
+    padding-left:11rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 3px 10px #167830 ;
+
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav li a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 50px;  
+    font-size: 20px;
+    margin-left: 70px;
+}
+.nav li a:hover{
+     background-color: rgba(112, 108, 116, 0.603);
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border-radius: 50px;
+}
+
+.logo{
+    position: absolute;
+    top: 2.6%;
+    left: 2%;
+    padding-left:3rem;
+}
+.titulo {
+    color:black;
+    text-align: center; 
+
+    
+}
+.bloco1 {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    color: aliceblue;
+    background-color:#105422;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    word-break: normal;
+
+}
+img {
+    border-radius: 10px;
+    
+    
+}
+.bloco1, img {
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 5px solid aliceblue;
+  }
+  th {
+    background-color: #03bb0c;
+  }
+  tr:hover {
+    background-color:rgba(0, 0, 0, 0.507);
+  }
+.container {
+    display: flex;
+}
+
+.container {
+    padding: 15px;
+
+}
+
+.bloco {
+    flex: 1;
+    padding: 50px;
+    margin: 5px;
+    color: aliceblue;
+    background-color:#105422;
+    border-radius: 5px;
+    text-align: center;
+
+}
